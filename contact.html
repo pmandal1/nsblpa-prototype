@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact NSBLPA — send a message or find our contact information." />
+  <title>Contact - NSBLPA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="NSBLPA Logo"></a></div>
+      <nav class="nav" aria-label="Primary Navigation">
+        <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ownership.html">Ownership</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="apps.html">Apps</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact NSBLPA</h1>
+        <p>Get in touch with our team</p>
+      </div>
+    </section>
+
+    <section class="contact-content">
+      <div class="container contact-grid">
+        <div class="contact-form">
+          <h2>Send us a Message</h2>
+          <form id="contactForm">
+            <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+            <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" required></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="contactStatus" aria-live="polite" style="margin-top:.75rem;"></p>
+          </form>
+        </div>
+
+        <aside class="contact-info">
+          <h2>Contact Information</h2>
+          <div class="info-item"><h3>Email</h3><p><a href="mailto:info@nsblpa.com">info@nsblpa.com</a></p></div>
+          <div class="info-item"><h3>Phone</h3><p>(555) 123-4567</p></div>
+          <div class="info-item"><h3>Address</h3><p>123 Sports Avenue<br>New York, NY 10001</p></div>
+          <div class="info-item"><h3>Office Hours</h3><p>Monday - Friday: 9am - 5pm EST</p></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <img src="assets/images/logo.png" alt="NSBLPA logo">
+        <p>National Sales-Betting League Players Association</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ownership.html">Ownership</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="apps.html">Apps</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect With Us</h4>
+        <p class="footer-description">Follow us on social media for the latest updates and news.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+            <img src="assets/images/icons8-facebook-50.png" alt="Facebook">
+          </a>
+          <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+            <img src="assets/images/icons8-twitter-50.png" alt="Twitter-X">
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+            <img src="assets/images/icons8-youtube-50.png" alt="Youtube">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-middle">
+      <div class="footer-middle-content">
+        <p class="footer-copyright">© 2025 National Sales Bet League Professional Association. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">TERMS & CONDITIONS</a>
+          <a href="#">FAQ</a>
+          <a href="#">CAREERS</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>National Sales Bet League Professional Association - 2025 Season</p>
+    </div>
+  </footer>
+
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
