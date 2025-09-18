@@ -202,7 +202,9 @@ body {
 .news-content {
   padding: 1rem 1.25rem;
 }
-
+.contact{
+    color: aqua;
+}
 .news-tag {
   display: inline-block;
   background: #002244;
