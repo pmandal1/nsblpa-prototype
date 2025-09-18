@@ -1,98 +1,44 @@
+NSBLPA Prototype - README
+This document contains the README for the NSBLPA Prototype website. It includes details about running the prototype locally, assumptions and design decisions, assets used, and a live GitHub Pages preview link.
+1. How to Run the Prototype Locally
+Option 1: Open Directly in Browser
+1. Download or copy the `nsblpa-prototype` folder to your computer.
+2. Inside the folder, locate `index.html`.
+3. Double-click `index.html` → it will open in your default browser.
+4. Use the navigation menu to explore different pages.
+
+👉 That’s it — the prototype runs directly from local files.
+
+2. Assumptions & Design Decisions
+- Static Prototype: This project is frontend-only (HTML, CSS, JS) with no backend or database.
+- Responsive Layout: The design is responsive and adapts to desktop, tablet, and mobile devices.
+- Styling: Built with vanilla CSS3, without external frameworks, to keep it lightweight.
+- Navigation: Simple static links between pages.
+- Accessibility: Text contrast improved, focus styles added.
+- Content: Placeholder content used for demo.
+3. Assets Used
+- Logos & Icons:
+   * Stored in assets/images/
+   * Social icons (Facebook, X/Twitter, YouTube) from Icons8
+
+- Hero & Highlight Images:
+   * Example images (hero-600.webp, highlight1.jpg, etc.)
+
+⚠️ All logos, images, and icons are placeholders only and not official branding.
+4. GitHub Pages Live Link
+The prototype is live on GitHub Pages:
+* https://pmandal1.github.io/nsblpa-prototype/
+  
+*Project Structure
 nsblpa-prototype/
-├── index.html # Homepage with hero, news, league table, posts, highlights, next match
-├── ownership.html # Ownership opportunities & SalesBets model
-├── teams.html # Team listings with logos, locations, and external links
-├── apps.html # Official Android Play Store app links
-├── contact.html # Contact form and contact details
-├── assets/
-│ ├── styles.css # Global styles
-│ ├── scripts.js # JavaScript for nav, form handling, and parallax effect
-│ └── images/ # Logos, icons, and media assets
-
-#Features
-
-- **Responsive Layout**  
-  Works across desktop, tablet, and mobile devices.
-
-- **Hero Section**  
-  Full-screen background with text overlay and parallax scrolling.
-
-- **Trending News Cards**  
-  Grid-based design for latest updates.
-
-- **League Table**  
-  Responsive standings table with form dots, points bars, and team logos.
-
-- **Latest Posts & Match Highlights**  
-  Horizontal scrollable cards with images and video placeholders.
-
-- **Next Match Countdown**  
-  Dynamic badge, countdown timer placeholder, and CTA buttons.
-
-- **Ownership & Apps Pages**  
-  Showcasing ownership benefits and Android apps with Play Store links.
-
-- **Teams Page**  
-  Grid of all seven teams with logos and external websites.
-
-- **Contact Form**  
-  Fake form submission (front-end only) with status messages.
-
-- **Accessibility**  
-  - Semantic HTML5 structure.  
-  - ARIA labels for navigation and tables.  
-  - Focus styles for keyboard navigation.  
-
----
-
-#Technologies Used
-
-- *HTML5* – Semantic, accessible markup  
-- *CSS3* – Responsive design, flexbox & grid layouts, animations  
-- *Vanilla JavaScript (ES6)* – Mobile navigation, parallax effect, fake form handler  
-- *Assets* – Custom images, icons, and logos
-
----
-
-#Preview
-
-- **Homepage:** Hero banner with background image, trending news, and league table.  
-- **Ownership:** Cards for SalesBets ownership model and benefits.  
-- **Teams:** Logos and external team links.  
-- **Apps:** Play Store links categorized by team, fan, and ownership apps.  
-- **Contact:** Message form and organization details.  
-
----
-
-#Usage
-
-1. Clone or download this repository.  
-2. Open `index.html` in a browser.  
-3. Navigate across pages via the header navigation.  
-
-> No backend integration — this is a static prototype. Contact form does not send real emails.
-
----
-
-#Responsive Design
-
-- Desktop: Full nav menu and wide layouts.  
-- Tablet/Mobile: Collapsible navigation, vertical stacking, scrollable cards.  
-
----
-
-#Notes
-
-- Background images and logos are placeholders for demo purposes.  
-- Video highlights currently show an alert — replace with a video player or modal.  
-- `scripts.js` includes parallax scrolling (disabled for users with **reduced motion preferences**).  
-
----
-
-#Author
-
-Designed & developed as a *front-end prototype* for the **NSBLPA Website Redesign Project**.  
-
----
-
+│── index.html         # Homepage
+│── teams.html         # Teams listing
+│── apps.html          # Official apps page
+│── ownership.html     # Ownership opportunities
+│── contact.html       # Contact form
+│
+└── assets/
+    ├── styles.css     # Main stylesheet
+    ├── scripts.js     # Navigation & interactivity
+    └── images/        # Logos, icons, and placeholders
 
